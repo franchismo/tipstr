@@ -13,6 +13,7 @@
 		28DB2B411A6B288B0039465B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DB2B401A6B288B0039465B /* Images.xcassets */; };
 		28DB2B441A6B288B0039465B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28DB2B421A6B288B0039465B /* LaunchScreen.xib */; };
 		28DB2B501A6B288B0039465B /* TipstrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB2B4F1A6B288B0039465B /* TipstrTests.swift */; };
+		28DB2B5C1A6B2A080039465B /* CashRegister.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DB2B5B1A6B2A080039465B /* CashRegister.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		28DB2B491A6B288B0039465B /* TipstrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipstrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DB2B4E1A6B288B0039465B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28DB2B4F1A6B288B0039465B /* TipstrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipstrTests.swift; sourceTree = "<group>"; };
+		28DB2B5B1A6B2A080039465B /* CashRegister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CashRegister.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				28DB2B3B1A6B288B0039465B /* ViewController.swift */,
 				28DB2B3D1A6B288B0039465B /* Main.storyboard */,
 				28DB2B401A6B288B0039465B /* Images.xcassets */,
+				28DB2B5B1A6B2A080039465B /* CashRegister.png */,
 				28DB2B421A6B288B0039465B /* LaunchScreen.xib */,
 				28DB2B371A6B288B0039465B /* Supporting Files */,
 			);
@@ -161,9 +164,11 @@
 				TargetAttributes = {
 					28DB2B331A6B288B0039465B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9VBLW23V62;
 					};
 					28DB2B481A6B288B0039465B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9VBLW23V62;
 						TestTargetID = 28DB2B331A6B288B0039465B;
 					};
 				};
@@ -195,6 +200,7 @@
 				28DB2B3F1A6B288B0039465B /* Main.storyboard in Resources */,
 				28DB2B441A6B288B0039465B /* LaunchScreen.xib in Resources */,
 				28DB2B411A6B288B0039465B /* Images.xcassets in Resources */,
+				28DB2B5C1A6B2A080039465B /* CashRegister.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +362,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +375,7 @@
 				INFOPLIST_FILE = TipstrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipstr.app/Tipstr";
 			};
 			name = Debug;
@@ -375,6 +384,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -382,6 +393,7 @@
 				INFOPLIST_FILE = TipstrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipstr.app/Tipstr";
 			};
 			name = Release;
@@ -405,6 +417,7 @@
 				28DB2B551A6B288B0039465B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28DB2B561A6B288B0039465B /* Build configuration list for PBXNativeTarget "TipstrTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				28DB2B581A6B288B0039465B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
