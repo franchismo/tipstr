@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2817CF9B1A6C91A6005F9F6B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2817CF9A1A6C91A6005F9F6B /* README.md */; };
 		28DB2B3A1A6B288B0039465B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB2B391A6B288B0039465B /* AppDelegate.swift */; };
 		28DB2B3C1A6B288B0039465B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB2B3B1A6B288B0039465B /* ViewController.swift */; };
 		28DB2B3F1A6B288B0039465B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DB2B3D1A6B288B0039465B /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2817CF9A1A6C91A6005F9F6B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		28DB2B341A6B288B0039465B /* Tipstr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipstr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DB2B381A6B288B0039465B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28DB2B391A6B288B0039465B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		28DB2B2B1A6B288A0039465B = {
 			isa = PBXGroup;
 			children = (
+				2817CF9A1A6C91A6005F9F6B /* README.md */,
 				28DB2B361A6B288B0039465B /* Tipstr */,
 				28DB2B4C1A6B288B0039465B /* TipstrTests */,
 				28DB2B351A6B288B0039465B /* Products */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2817CF9B1A6C91A6005F9F6B /* README.md in Sources */,
 				28DB2B3C1A6B288B0039465B /* ViewController.swift in Sources */,
 				28DB2B3A1A6B288B0039465B /* AppDelegate.swift in Sources */,
 			);
