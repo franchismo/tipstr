@@ -41,6 +41,8 @@ class ViewController: UIViewController {
         
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
+        
+        // calculate bill split, need to cast double the divisor
         var split = total / ((Double)(splitControl.selectedSegmentIndex) + 1)
         
         tipLabel.text = String(format: "%.2f", tip)
